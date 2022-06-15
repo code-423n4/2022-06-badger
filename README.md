@@ -9,7 +9,7 @@
 
 # Badger Vested Aura - bveAURA
 
-Building upon the work of the CodeArena Reviewed bveCVX (Badger Vested CVX), Badger is offering a locking vault for Aura.finance, with the goal of sourcing yield from locking incetives as well as processing voting bribes from HiddenHands.
+Building upon the work of the CodeArena Reviewed bveCVX (Badger Vested CVX), Badger is offering a locking vault for Aura.finance, with the goal of sourcing yield from locking incentives as well as processing voting bribes from HiddenHands.
 
 The goal of this contest is to review the MyStrategy.sol we wrote for locking Aura as well as Claiming and processing Bribes.
 
