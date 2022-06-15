@@ -11,6 +11,8 @@
 
 Building upon the work of the CodeArena Reviewed bveCVX (Badger Vested CVX), Badger is offering a locking vault for Aura.finance, with the goal of sourcing yield from locking incetives as well as processing voting bribes from HiddenHands.
 
+The goal of this contest is to review the MyStrategy.sol we wrote for locking Aura as well as Claiming and processing Bribes.
+
 ## Code Repository
 
 https://github.com/Badger-Finance/vested-aura/tree/c-1
@@ -122,3 +124,6 @@ https://github.com/Badger-Finance/badger-vaults-1.5/blob/main/security/audits/Ba
 
 Badger Office Hour Discussion about the Why behind 1.5:
 https://www.youtube.com/watch?v=psf4BS_kPIc&ab_channel=BadgerDAO
+
+Badger 1.5 Mix (Brownie Boilerplate)
+https://github.com/Badger-Finance/badger-vaults-mix-v1.5
