@@ -16,7 +16,7 @@ Building upon the work of the CodeArena Reviewed bveCVX (Badger Vested CVX), Bad
 
 ## Code Repository
 
-https://github.com/Badger-Finance/vested-aura/blob/c-1/
+https://github.com/Badger-Finance/vested-aura/tree/c-1
 
 The repository is a brownie project, just setup a .env with your `WEB3_INFURA_PROJECT_ID` and `ETHERSCAN_TOKEN`
 
