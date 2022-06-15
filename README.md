@@ -74,6 +74,17 @@ Because of the system integrating with already audited code, the contracts not e
 
 E.g. If you can find a vulnerability in the interaction between Vault and Strategy, the please do disclose the vulnerability, however do not send us gas optimizations for Vault.sol as the contract is not in scope.
 
+## External Contracts we're integrating with
+
+Aura Locker, reviewed via CodeArena, report TBD. Code: https://etherscan.io/address/0x3Fa73f1E5d8A792C80F426fc8F84FBF7Ce9bBCAC#contracts
+
+hiddenHandDistributor, to claim veBAL Bribes, reviewed via CodeArena here: https://code4rena.com/reports/2022-02-redacted-cartel
+
+bribesProcessor, to process bribes, to be coded, example code: https://github.com/GalloDaSballo/fair-selling/blob/main/contracts/VotiumBribesProcessor.sol
+
+BalancerVault, to sell certain tokens for more AURA, Code: https://etherscan.io/address/0xBA12222222228d8Ba445958a75a0704d566BF2C8, Audits: https://docs.balancer.fi/security/audits
+
+
 ## Request for Gas Findings
 
 Having reviewed hundreds of gas reports I ask wardens to kindly report Gas Findings along with an estimate of how much gas it would save.
