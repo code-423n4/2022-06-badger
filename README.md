@@ -7,9 +7,6 @@
 - Starts June 15, 2022 20:00 UTC
 - Ends June 18, 2022 19:59 UTC
 
-
-[ ⭐️ SPONSORS ADD INFO HERE ]
-
 # Badger Vested Aura - bveAURA
 
 Building upon the work of the CodeArena Reviewed bveCVX (Badger Vested CVX), Badger is offering a locking vault for Aura.finance, with the goal of sourcing yield from locking incetives as well as processing voting bribes from HiddenHands.
