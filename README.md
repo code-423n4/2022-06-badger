@@ -55,23 +55,18 @@ Because of the architecture of BadgerVaults, not only the Strategy contract coul
 
 Particular care should be put into understanding how Vault invariant could be broken due to the implementation of the `MyStrategy`
 
-## Contracts in Scope
+## Additional note on scope:
 
-- MyStrategy.sol - 440 LOC -> https://github.com/Badger-Finance/vested-aura/blob/v0.0.2/contracts/MyStrategy.sol
-
-## Contracts that can be brough into scope for High and Med Severity findings
-
-The following contracts are part of the architecture, they are already audited, have been reviewed already in the previous CodeArena Contest.
-The following Contracts can be brought into scope for High and Medium severity finding, however we will not accept Gas nor QA reports
+These contracts are out of scope:
 
 - Vault.sol -> https://github.com/Badger-Finance/badger-vaults-1.5/blob/0.1.0/contracts/Vault.sol
 - BaseStrategy.sol -> https://github.com/Badger-Finance/badger-vaults-1.5/blob/0.1.0/contracts/BaseStrategy.sol
 
-## Notes about certain findings
+They have been previously audited by Code4rena and QuantStamp.
 
-Because of the system integrating with already audited code, the contracts not explicitly mentioned in scope can be brough into scope for Medium and High Severity findings, however we will not be accepting gas optimization nor refactorings for code not in scope.
+However, if a high or medium severity finding is discovered in this previously audited code, it would be eligible for consideration based wholly on judge discretion [as outlined in the docs](https://docs.code4rena.com/roles/wardens/judging-criteria#scope).
 
-E.g. If you can find a vulnerability in the interaction between Vault and Strategy, the please do disclose the vulnerability, however do not send us gas optimizations for Vault.sol as the contract is not in scope.
+Do not submit gas optimizations or QA on these contracts.
 
 ## External Contracts we're integrating with
 
