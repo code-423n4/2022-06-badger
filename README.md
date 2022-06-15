@@ -65,7 +65,8 @@ Particular care should be put into understanding how Vault invariant could be br
 The following contracts are part of the architecture, they are already audited, have been reviewed already in the previous CodeArena Contest.
 The following Contracts can be brought into scope for High and Medium severity finding, however we will not accept Gas nor QA reports
 
-- Vault.sol / BaseStrategy.sol 
+- Vault.sol -> https://github.com/Badger-Finance/badger-vaults-1.5/blob/0.1.0/contracts/Vault.sol
+- BaseStrategy.sol -> https://github.com/Badger-Finance/badger-vaults-1.5/blob/0.1.0/contracts/BaseStrategy.sol
 
 ## Notes about certain findings
 
