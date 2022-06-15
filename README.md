@@ -55,12 +55,16 @@ Because of the architecture of BadgerVaults, not only the Strategy contract coul
 
 Particular care should be put into understanding how Vault invariant could be broken due to the implementation of the `MyStrategy`
 
+## Contracts in Scope
+
+`MyStrategy.sol` - 440 LOC -> https://github.com/Badger-Finance/vested-aura/blob/v0.0.2/contracts/MyStrategy.sol
+
 ## Additional note on scope:
 
 These contracts are out of scope:
 
-- Vault.sol -> https://github.com/Badger-Finance/badger-vaults-1.5/blob/0.1.0/contracts/Vault.sol
-- BaseStrategy.sol -> https://github.com/Badger-Finance/badger-vaults-1.5/blob/0.1.0/contracts/BaseStrategy.sol
+- `Vault.sol` -> https://github.com/Badger-Finance/badger-vaults-1.5/blob/0.1.0/contracts/Vault.sol
+- `BaseStrategy.sol` -> https://github.com/Badger-Finance/badger-vaults-1.5/blob/0.1.0/contracts/BaseStrategy.sol
 
 They have been previously audited by Code4rena and QuantStamp.
 
