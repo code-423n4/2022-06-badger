@@ -15,7 +15,7 @@ The goal of this contest is to review the MyStrategy.sol we wrote for locking Au
 
 ## Code Repository
 
-https://github.com/Badger-Finance/vested-aura/tree/c-1
+https://github.com/Badger-Finance/vested-aura/tree/v0.0.2
 
 The repository is a brownie project, just setup a .env with your `WEB3_INFURA_PROJECT_ID` and `ETHERSCAN_TOKEN`
 
@@ -57,7 +57,7 @@ Particular care should be put into understanding how Vault invariant could be br
 
 ## Contracts in Scope
 
-- MyStrategy.sol - 440 LOC -> https://github.com/Badger-Finance/vested-aura/blob/c-1/contracts/MyStrategy.sol
+- MyStrategy.sol - 440 LOC -> https://github.com/Badger-Finance/vested-aura/blob/v0.0.2/contracts/MyStrategy.sol
 
 ## Contracts that can be brough into scope for High and Med Severity findings
 
