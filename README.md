@@ -53,7 +53,7 @@ The Claimed Bribes are transfered to another smart contract, out of scope, calle
 
 Because of the architecture of BadgerVaults, not only the Strategy contract could contain vulnerabilities, but vulnerabilities could emerge from the interaction between the Strategy, the BaseStrategy and the Vault.
 
-Particular care should be put into understanding how Vault invariant could be broken due to the implementation of the `MyStrategy`
+Particular care should be put into understanding how Vault invariants could be broken due to the implementation of the `MyStrategy`
 
 ## Contracts in Scope
 
