@@ -1,0 +1,146 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q2-2022 / ☑badger-vested-jun15
+==============================================================
+
+[06/14/2022 4:53 PM] itsmetechjay
+👋 Hello and welcome to the contest channel for the $30K USDC **Badger-Vested-Aura** contest!
+
+📆 Contest opens June 15, 2022 8:00 PM (20:00 UTC) and runs through June 18, 2022 7:59 PM (19:59 UTC) (3 days).
+
+Please give a warm welcome back to the BadgerDAO team, particularly @Alex The Entreprenerd, @shuklaayush and @dapp_whisperer who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-06-badger-vested-aura-contest
+
+{Embed}
+https://code4rena.com/contests/2022-06-badger-vested-aura-contest
+Code4rena Badger-Vested-Aura contest
+$30,000 USDC
+15 June 2022—18 June 2022
+Code4rena - ARCHIVE-Q2-2022 - ☑badger-vested-jun15 [986311673222668328].txt_Files/C4-banner-7C19B.png
+
+
+[06/16/2022 11:05 PM] alextheentreprenerd
+@unforgiven DMing about a submission
+
+
+[06/17/2022 1:49 AM] AuditsAreUS#8939
+Do you know where I can find the link to the Hidden Hand Distributor code (`IRewardDistributor`)?
+
+
+[06/17/2022 2:26 AM] alextheentreprenerd
+You can check the code here: https://docs.redactedcartel.xyz/products/hidden-hand/contracts-and-audits
+
+Also the CodeArena contest here: https://code4rena.com/reports/2022-02-redacted-cartel
+
+{Reactions}
+😍 
+
+[06/17/2022 2:39 AM] AuditsAreUS#8939
+Legend thanks
+
+
+[06/17/2022 5:55 PM] scaraven
+What is the motivation behind `isClaimingBribes`?
+
+
+[06/17/2022 6:33 PM] alextheentreprenerd
+To receive ETH only when we're claiming so we can convert to WETH
+
+
+[06/17/2022 6:36 PM] scaraven
+Is there any reason why you would prevent receiving ETH outside of the claiming period?
+
+
+[06/17/2022 6:46 PM] alextheentreprenerd
+Would rather receive WETH and use ETH exclusively for gas
+
+
+[06/17/2022 6:47 PM] alextheentreprenerd
+also receiving ETH can open up multiple instances in which we're in the `fallback / receive` function while also executing something else, making the code more complicated
+
+
+[06/18/2022 8:02 PM] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Badger-Vested-Aura** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: the BadgerDAO team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a contest administrator if you have questions along the way!
+
+
+[07/29/2022 9:55 PM] liveactionllamac4
+🤑 🎉 Awards for **Badger-Vested-Aura**:
+
+$5,733.20 USDC » @unforgiven 
+$3,884.06 USDC » @GimelSec (@rayn | GimelSec, @sces60107 | GimelSec)
+$3,600.11 USDC » @zzzitron 
+$2,059.55 USDC » @Bernd 
+$1,959.19 USDC » @kirk-baird 
+$1,881.47 USDC » @minhquanym 
+$1,755.51 USDC » @rfa 
+$1,723.59 USDC » @tabish.eth 
+$1,723.59 USDC » @PumpkingWok 
+$689.82 USDC » @IllIllI 
+$298.20 USDC » @sorryNotsorry - OOO until 26 Aug 
+$286.30 USDC » @cccz 
+$286.30 USDC » @kenzo 
+$286.30 USDC » @scaraven 
+$281.98 USDC » @0xKitsune 
+$235.59 USDC » @dipp 
+$203.40 USDC » @DefSec 
+$188.08 USDC » @lucyoa 
+$176.82 USDC » @Tadashi 
+$157.72 USDC » @thinklab 
+$147.12 USDC » @Chom 
+$142.12 USDC » @c3phas 
+$135.15 USDC » @robee 
+$132.64 USDC » @0xNazgul 
+$131.30 USDC » @Picodes | Angle 
+$130.88 USDC » @0x1f8b 
+$104.32 USDC » @hyh 
+$102.12 USDC » @Meera 
+$92.30 USDC » @joestakey 
+$90.46 USDC » @TerrierLover 
+$88.65 USDC » @0xFar5eer 
+$86.84 USDC » @codexploder 
+$81.43 USDC » @Waze 
+$81.01 USDC » @_Adam 
+$80.59 USDC » @gzeon 
+$80.25 USDC » @Funen 
+$53.62 USDC » @0xNineDec 
+$53.62 USDC » @a12jmx 
+$53.62 USDC » @saian 
+$51.26 USDC » @242 
+$51.26 USDC » @Sloth 
+$51.26 USDC » @cryptphi 
+$51.26 USDC » @Czar102 
+$51.26 USDC » @Sm4rty 
+$50.85 USDC » @0v3rf10w 
+$50.85 USDC » @Django | Saloon Finance 
+$50.71 USDC » @0x52 
+$50.71 USDC » georgypetrov
+$50.21 USDC » @0xkatana 
+$50.21 USDC » @fatherOfBlocks 
+$39.19 USDC » @simon135 
+$31.91 USDC » @MiloTruck 
+$31.91 USDC » @TomJ 
+$29.32 USDC » @JC 
+$28.99 USDC » @sach1r0 
+
+🏁 Findings summary
+---------------------------
+High risk findings: 8 total, 2 unique
+Med risk findings: 26 total, 3 unique
+Gas optimization reports: 28
+QA reports: 35
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+{Reactions}
+🎉 (10) 🥳 (7) C4Keycap (5) 🐺 (3) 
+
+==============================================================
+Exported 12 message(s)
+==============================================================
